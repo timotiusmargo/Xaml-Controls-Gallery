@@ -22,6 +22,8 @@
         <local:ControlExample x:Name="Example1" HeaderText="A Border around a TextBlock.">
             <Border
                 x:Name="Control1"
+                AutomationProperties.AutomationId="Border Test AutomationId"
+                AutomationProperties.Name="Border Test Name"
                 VerticalAlignment="Top"
                 Background="#FFFFFFFF"
                 BorderBrush="#FFFFD700"

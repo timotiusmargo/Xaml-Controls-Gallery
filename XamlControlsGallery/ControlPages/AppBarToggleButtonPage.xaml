@@ -35,7 +35,10 @@
                     <!-- App bar button with bitmap icon. -->
                     <AppBarToggleButton x:Name="Button2" Label="BitmapIcon" Click="AppBarButton_Click">
                         <AppBarToggleButton.Icon>
-                            <BitmapIcon UriSource="ms-appx:///Assets/Slices2.png" />
+                            <BitmapIcon UriSource="ms-appx:///Assets/Slices2.png"
+                                        AutomationProperties.AutomationId="BitmapIcon Test AutomationId"
+                                        AutomationProperties.Name="BitmapIcon Test Name"
+                            />
                         </AppBarToggleButton.Icon>
                     </AppBarToggleButton>
                     <TextBlock x:Name="Control2Output" Margin="8,0,0,0" VerticalAlignment="Center" />
